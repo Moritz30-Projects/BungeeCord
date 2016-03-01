@@ -77,13 +77,15 @@
     <groupId>org.slf4j</groupId>
        <artifactId>slf4j-api</artifactId>
        <version>${slf4jVersion}</version>
-       <scope>compile</scope>
+    <scope>system</scope>
+    <systemPath>${project.basedir}/lib/slf4j-api.jar</systemPath>
 </dependency>
 <dependency>
     <groupId>org.slf4j</groupId>
     <artifactId>slf4j-simple</artifactId>
     <version>${slf4jVersion}</version>
-    <scope>runtime</scope>
+    <scope>system</scope>
+    <systemPath>${project.basedir}/lib/slf4j-simple.jar</systemPath>
 </dependency>
         <dependency>
             <groupId>junit</groupId>
