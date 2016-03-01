@@ -157,7 +157,7 @@
        <artifactId>slf4j-api</artifactId>
        <version>${slf4jVersion}</version>
       <packaging>jar</packaging>
-      <file>${basedir}/lib/slf4j-api-1.7.13.jar</file>
+      <file>${project.basedir}/lib/slf4j-api-1.7.13.jar</file>
       <generatePom>true</generatePom>
    </configuration>
    <executions>
@@ -179,7 +179,7 @@
     <artifactId>slf4j-simple</artifactId>
     <version>${slf4jVersion}</version>
       <packaging>jar</packaging>
-      <file>${basedir}/lib/slf4j-simple-1.7.13.jar</file>
+      <file>${project.basedir}/lib/slf4j-simple-1.7.13.jar</file>
       <generatePom>true</generatePom>
    </configuration>
    <executions>
